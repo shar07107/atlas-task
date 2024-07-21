@@ -16,7 +16,7 @@ export default function Modal({
 	children,
 	isOpen,
 	setIsOpen,
-	maskClosable = true,
+	maskClosable = false,
 }) {
 	const handleOutsideClick = (event) => {
 		if (event.target === event.currentTarget) {

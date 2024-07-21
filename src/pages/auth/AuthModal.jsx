@@ -21,7 +21,8 @@ export default function AuthModal({ isAuthModalOpen, setIsAuthModalOpen }) {
 			<Modal
 				isOpen={isAuthModalOpen}
 				setIsOpen={setIsAuthModalOpen}
-				close={closeAuthModalHandle}>
+				close={closeAuthModalHandle}
+				maskClosable={true}>
 				{isAuthForm === "login" && (
 					<>
 						<Login switchFormLink={false} changeFormFunc={changeAuthLogin} />

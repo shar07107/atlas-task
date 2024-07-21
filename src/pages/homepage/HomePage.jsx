@@ -5,7 +5,10 @@ import PostCompo from "./PostCompo";
 export default function HomePage() {
 	return (
 		<>
-			<div className={classNames(" flex justify-center p-3.5 lg:p-6 lg:py-16")}>
+			<div
+				className={classNames(
+					" flex justify-center p-3.5 py-6 lg:p-6 lg:py-16",
+				)}>
 				<div className={classNames("relative w-full max-w-[700px] space-y-6")}>
 					<div className="space-y-9">
 						<PostHeader
