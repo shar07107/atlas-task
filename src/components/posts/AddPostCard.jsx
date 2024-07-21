@@ -4,7 +4,7 @@ import Button from "../common/button/Button";
 import Input from "../common/input/Input";
 
 export default function AddPostCard() {
-	let [isAuthModalOpen, setIsAuthModalOpen] = useState(true);
+	let [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 	return (
 		<>
 			<div className="w-full border border-level-2 bg-color-base-2 rounded-lg p-6">
@@ -17,7 +17,7 @@ export default function AddPostCard() {
 							💬
 						</div>
 						<Input
-							className={`p-2.5 h-[60px] pl-[65px] bg-transparent border-0 text-base font-normal rounded-lg`}
+							className={`p-2.5 h-[60px] pl-[65px] bg-transparent border-[0px] text-base font-normal rounded-lg`}
 							placeholder="How are you feeling today?"
 							name="postTitle"
 							type="text"
