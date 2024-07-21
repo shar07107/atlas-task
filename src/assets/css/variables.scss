@@ -1,0 +1,57 @@
+:root,
+.light {
+	--color-white: 255 255 255; /* #ffffff */
+	--color-black: 0 0 0; /* #000000 */
+
+	--color-gray-1: 179 179 179; /* gray #b3b3b3*/
+	--color-gray-2: 84 84 84; /* dark gray #545454 */
+	--color-gray-3: 18 18 18; /* smoke #121212 */
+	--color-gray-4: 193, 193, 193; /* smoke #c1c1c1 */
+	--color-gray-5: 45 42 49; /* smokeDark #2D2A31 */
+
+	// --color-blue-1: 143 199 255; /* basin #8fc7ff */
+	// --color-blue-2: 46 141 238; /* gulf #2e8dee */
+	// --color-blue-3: 32 129 226; /* sea blue #2081e2 */
+	--color-blue-4: 24 104 183; /* dark sea blue #1868b7 */
+	--color-blue-5: 35 90 163; /* offshore #235aa3 */
+
+	--color-base-1: var(--color-white);
+	--color-base-2: 246 246 246; /* #f6f6f6 */
+
+	--primary-1: 74, 150, 255; /* offshore #0284c7 sky blue */
+	--primary-2: 40 100 255; /* offshore #0284c7 sky blue */
+
+	--color-text-primary: var(--color-gray-3);
+	--color-text-secondary: var(--color-gray-2);
+	--color-text-interactive-primary: var(--color-blue-3);
+	--color-text-interactive-primary-hover: var(--color-blue-5);
+	--color-text-interactive-secondary: var(--color-gray-3);
+	--color-text-interactive-secondary-hover: var(--color-gray-2);
+
+	--color-border-1: rgb(var(--color-gray-3) / 8%);
+	--color-border-2: rgb(var(--color-gray-3) / 12%);
+	--color-border-3: rgb(var(--color-gray-3) / 32%);
+	--color-border-4: rgb(241 241 244);
+}
+
+.dark {
+	--color-base-1: 21 23 28;
+	--color-base-2: 39 41 45; /* #1b1b1b */
+	--color-base-3: 19 19 25; /* #1b1b1b */
+
+	--primary-1: 74 150 255; /* offshore #0284c7 sky blue */
+	--primary-2: 52 122 218; /* offshore #0284c7 sky blue */
+
+	--color-border-1: rgb(var(--color-white) / 8%);
+	--color-border-2: rgb(53 55 59);
+	--color-border-3: rgb(var(--color-white) / 32%);
+	--color-border-4: rgba(20, 21, 26, 0.534);
+
+	--color-label: 197 199 202;
+	--color-text-primary: var(--color-white);
+	--color-text-secondary: 107 108 112;
+	--color-text-interactive-primary: var(--color-blue-1);
+	--color-text-interactive-primary-hover: var(--color-blue-3);
+	--color-text-interactive-secondary: var(--color-white);
+	--color-text-interactive-secondary-hover: var(--color-gray-1);
+}
