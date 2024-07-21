@@ -6,7 +6,7 @@ function App() {
 	return (
 		<>
 			<main
-				className={"bg-color-base-3 min-h-screen w-full p-0 m-0 text-white"}>
+				className={"bg-color-base-3 min-h-[100svh] w-full p-0 m-0 text-white"}>
 				<BrowserRouter future={{ v7_startTransition: true }}>
 					<ScrollToTop>
 						<Routers />
