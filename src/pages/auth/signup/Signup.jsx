@@ -111,7 +111,7 @@ export default function SignUp({ switchFormLink = true, changeFormFunc }) {
 						<div>
 							<span className="text-color-secondary">
 								Already have an account? &nbsp;
-								{switchFormLink === "link" ? (
+								{switchFormLink ? (
 									<>
 										<Link to={"/"} type="button" className="text-color-primary">
 											Login →
