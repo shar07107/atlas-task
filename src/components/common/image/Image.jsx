@@ -6,6 +6,7 @@ export default function Image({ ...props }) {
 			src={props?.src}
 			alt={props?.alt ? props?.alt : "portalImg"}
 			style={props?.style}
+			loading="lazy"
 			className={classNames(props?.className)}
 		/>
 	);
