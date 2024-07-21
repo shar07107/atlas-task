@@ -11,7 +11,8 @@ export default function ScrollToTop({ children }) {
 		// access.scrollIntoView({ behavior: 'smooth' }, true);
 	};
 	useEffect(() => {
-		setTimeout(() => onTop(), 0);
+		// setTimeout(() => onTop(), 0);
+		onTop();
 		// animateScroll.scrollToTop();
 	}, [pathname]);
 	return children || null;
