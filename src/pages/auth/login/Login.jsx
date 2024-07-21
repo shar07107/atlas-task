@@ -86,7 +86,7 @@ export default function Login({ switchFormLink = true, changeFormFunc }) {
 									variant={"primary"}
 									className="w-full"
 									type="button">
-									Continue
+									Login Now
 								</Button>
 							</div>
 						</div>
