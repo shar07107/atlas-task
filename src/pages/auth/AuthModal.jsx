@@ -22,17 +22,22 @@ export default function AuthModal({ isAuthModalOpen, setIsAuthModalOpen }) {
 				isOpen={isAuthModalOpen}
 				setIsOpen={setIsAuthModalOpen}
 				close={closeAuthModalHandle}
-				maskClosable={true}>
-				{isAuthForm === "login" && (
-					<>
-						<Login switchFormLink={false} changeFormFunc={changeAuthLogin} />
-					</>
-				)}
-				{isAuthForm === "signup" && (
-					<>
-						<SignUp switchFormLink={false} changeFormFunc={changeAuthSignUp} />
-					</>
-				)}
+				maskClosable={false}>
+				<div className="py-3.5">
+					{isAuthForm === "login" && (
+						<>
+							<Login switchFormLink={false} changeFormFunc={changeAuthLogin} />
+						</>
+					)}
+					{isAuthForm === "signup" && (
+						<>
+							<SignUp
+								switchFormLink={false}
+								changeFormFunc={changeAuthSignUp}
+							/>
+						</>
+					)}
+				</div>
 			</Modal>
 		</>
 	);

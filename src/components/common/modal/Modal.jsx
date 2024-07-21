@@ -57,8 +57,8 @@ export default function Modal({
 							{closeIcon ? (
 								<div
 									className={`${
-										closeBtnPos ? closeBtnPos : "top-3 right-3"
-									} absolute z-10`}>
+										closeBtnPos ? closeBtnPos : "top-3.5 right-3.5"
+									} absolute z-[1]`}>
 									<Button
 										type="button"
 										onClick={() => {
